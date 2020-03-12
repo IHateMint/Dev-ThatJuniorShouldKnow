@@ -1,3 +1,5 @@
+// Using UDF will make us lose up all the optimization Spark does on our Dataframe and Dataset.
+
 // UDF example
 import org.apache.spark.sql.functions.{col, udf}
 
